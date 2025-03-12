@@ -39,7 +39,7 @@ jobs:
       
       - name: "[Debug] Triggered from Main"
         if: inputs.debug == true && github.ref == 'refs/heads/main'
-        run: echo "Triggered from main branch!"
+        run: echo 'Triggered from main branch!'
       
       - name: "Print Variables"
         env:
